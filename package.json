@@ -11,9 +11,9 @@
   "devDependencies": {
   },
   "dependencies": {
-    "gulp": "^3.8.11",
-    "gulp-jade": "^1.0.0",
+    "gulp": "*",
+    "gulp-jade": "*",
     "express": "^4.11.2",
-    "gulp-stylus": "^2.0.0"
+    "gulp-stylus": "*"
   }
 }
