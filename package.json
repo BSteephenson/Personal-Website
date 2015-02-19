@@ -9,10 +9,10 @@
   "author": "Benjamin Steephenson",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-jade": "^1.0.0"
   },
   "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jade": "^1.0.0",
     "express": "^4.11.2",
     "gulp-stylus": "^2.0.0"
   }
