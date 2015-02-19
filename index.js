@@ -1,10 +1,8 @@
 var express = require('express')
 var app = express()
 
-app.get('/', function (req, res) {
-	res.sendfile('build/index.html')
-})
-app.use("/css", express.static(__dirname + '/build/css'))
+app.use("/", express.static(__dirname + '/build/'))
+
 var server = app.listen(8080, function () {
 
 	var host = server.address().address
