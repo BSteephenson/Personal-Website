@@ -8,12 +8,12 @@
   },
   "author": "Benjamin Steephenson",
   "license": "ISC",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
+    "express": "^4.11.2",
     "gulp": "*",
     "gulp-jade": "*",
-    "express": "^4.11.2",
-    "gulp-stylus": "*"
+    "gulp-stylus": "*",
+    "markdown": "^0.5.0"
   }
 }
