@@ -4,7 +4,7 @@ var exec = require('child_process').exec;
 
 var secret_url = require('./secret_url.js')
 
-app.post(secret_url, function(){
+app.post(secret_url, function(req, res){
 	exec('git pull', function(err, stdout, stderr){
 		exec('gulp jade', function(e, s, se){
 			exec('gulp stylus', function(e, s, se){
@@ -12,6 +12,7 @@ app.post(secret_url, function(){
 			})
 		})
 	})
+	res.send("Success")
 })
 
 app.use("/", express.static(__dirname + '/build/'))
