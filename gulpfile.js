@@ -14,3 +14,8 @@ gulp.task('stylus', function(){
 	.pipe(stylus())
 	.pipe(gulp.dest('build/css'))
 })
+
+gulp.task('watch', function(){
+	gulp.watch('src/**/*', ['jade', 'stylus'])
+})
+
