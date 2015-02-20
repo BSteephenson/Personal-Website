@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Benjamin Steephenson</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="minilogo.ico" />
+
+    <!-- Bootstrap -->
+    <link rel='stylesheet' type = 'text/css' href='css/bootstrap.min.css' />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+
+    <style>
+ @page  
+{ 
+    size: auto;   /* auto is the initial value */ 
+
+    /* this affects the margin in the printer settings */ 
+    margin: .25in .5in; 
+} 
+
+      body{
+/*        zoom: .75; -moz-transform: scale(.75); 
+        -moz-transform-origin: 0 0;
+*/
+
+        background-color: white;
+        color: black;
+        font-family: 'Open Sans', 'sans-serif';
+        font-weight: 500;
+        font-size: 18px;
+      }
+      p{
+        margin-bottom: 0px;
+      }
+      h2{
+        font-size: 16px;
+      }
+      div#content{
+        margin: 0 auto;
+        width: 8in;
+
+      }
+      #mainHeader{
+        width:75%;
+        margin: 0 auto;
+        //margin-top: 10px;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 100;
+      }
+
+      div.experience{
+        margin-bottom: 10px;
+        margin-left: 25px;
+        font-size: 13px;
+      }
+      div.title{
+        text-align: left;
+        float: left;
+      }
+      div.times{
+        text-align: right;
+        float: right;
+        width: 25%;
+      }
+      p.description{
+        font-size: 11px;
+        margin-left: 10px;
+      }
+      p.aboutmedescription{
+        font-size: 11px;
+        margin-left: 25px;
+
+      }
+      div.work{
+        width: 75%;
+      }
+      div.project{
+        width: 100%;
+      }
+      div.skills{
+          column-count: 2;
+  column-gap: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+   -webkit-column-count: 2;
+   -webkit-column-gap: 20px;
+
+        font-size: 11px;
+      }
+      div.aboutme{
+        font-size: 11px;
+      }
+      p.contactInfo{
+        font-size: 10px;
+        text-align: center;
+      }
+/*      hr{
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+*/
+    </style>
+
+  </head>
+  <body>
+    <div id="content">
+      <div id="mainHeader">Benjamin Steephenson</div>
+      <p class = "contactInfo">16 Coyne Ct, Bergenfield, NJ 07621 <br />Benjamin.Steephenson@tufts.edu • 201-218-1967 • github.com/BSteephenson</p>
+      <hr />
+ 
+
+      <div>
+      <div>
+        <h2>Education</h2>
+
+        <div class="experience">
+          <div class = "title work">Tufts University</div><div class = "times">Sept 2014 - Present</div>
+          <p class = "description">School of Arts and Science - Computer Science</p>
+          <p class = "description">Current GPA: 3.67</p>
+          <p class = "description">Data Structures, Principles of Economics, Health Policy and the Open Data Revolution, Discrete Mathematics, Abstract Linear Algebra</p>
+        </div>
+
+        <div class="experience">
+          <div class = "title work">Bergen County Academies</div><div class = "times">Sept 2010 - June 2014</div>
+          <p class = "description">Academy for the Advancement of Science and Technology</p>
+          <p class = "description">GPA: 3.85</p>
+          <p class = "description">AP Computer Science, Digital Imaging, AP Statistics, Linear Algebra and Differential Equations</p>
+        </div>
+      </div>
+
+      <hr />
+    
+      <div>
+        <h2>Work Experience</h2>
+        <div class="experience">
+          <div class = "title work">Teaching Assistant at Tufts University</div><div class = "times">Jan 2015 - Present</div>
+          <p class = "description">Helps students at office hours and grades assignments for Data Structures</p>
+        </div>
+
+        <div class="experience">
+          <div class = "title work">Software Development Intern at HackensackUMC Information Technology</div><div class = "times">Sept 2013 - May 2014</div>
+          <p class = "description">Learned about software development in a healthcare setting through a weekly internship</p>
+          <p class = "description">Designed web applications and scripts using ASP.NET and SQL Server</p>
+        </div>
+
+      </div>
+      
+      <hr />
+
+      <div>
+        <h2>Projects</h2>
+
+        <div class="experience">
+          <div class = "title project">Health Insurance Exchange API</div>
+          <p class = "description">Created a data access API for an insurance providers data set as part of a larger project to augment health insurance exchanges</p>
+          <p class = "description">Returns JSON formatted data regarding available insurance plans for a region and plan details such as premiums and deductibles</p>
+          <p class = "description">Built with <b>Ruby on Rails</b></p>
+        </div>
+
+        <div class="experience">
+          <div class = "title project">SongSearch Lyrics Search Engine</div>
+          <p class = "description">Built a search engine for the lyrics of 170,000 songs for a data structures class</p>
+          <p class = "description">Implemeted with a trie and put together using independently tested classes</p>
+          <p class = "description">Made in <b>C++</b></p>
+        </div>
+
+        <div class="experience">
+          <div class = "title project">Personality Study Site</div>
+          <p class = "description">Created a web application that facilitated data collection for a psychology study</p>
+          <p class = "description">Built the back end using <b>PHP</b>, the <b>Laravel</b> framework, and <b>MySQL</b></p>
+          <p class = "description">Designed the front end using <b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, <b>jQuery</b> libraries, <b>Raphael.js</b>, and <b>Twitter Bootstrap</b></p>
+        </div>
+
+        <div class="experience">
+          <div class = "title project">Gala Registration Site</div>
+          <p class = "description">Collaborated with mentor in creating a web application to manage registration and check-in for the hospital's employee award event</p>
+          <p class = "description">Built the back end using <b>C#</b>, <b>ASP.NET MVC</b>, and <b>SQL Server</b></p>
+          <p class = "description">Designed the front end using <b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, and <b>Twitter Bootstrap</b></p>
+        </div>
+
+        <div class="experience">
+          <div class = "title project">BCAMart Inventory Management Site</div>
+          <p class = "description">Created a web application to help manage inventory data of a school store using sales data from an iPad POS system</p>
+          <p class = "description">Built the back end using <b>PHP</b> and <b>MySQL</b></p>
+          <p class = "description">Designed the front end using <b>HTML</b>, <b>CSS</b>, and <b>Javascript</b></p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div>
+        <h2>Skills</h2>
+        <div class="skills">
+          <ul>
+            <li>Most familiar with Java, C++, Python, and Javascript</li>
+            <li>Values organization through Git version control, Unit testing, and Object oriented programming</li>
+            <li>Knowledgable in data structures and asymptotic complexity</li>
+            <li>Basic understanding of statistical analysis and inference</li>
+            <li>Has excellent written communication skills</li>
+            <li>Is very adaptable and is always ready to learn something new</li>
+            <li>Excels in computational and logical problem solving</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
