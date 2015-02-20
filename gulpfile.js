@@ -4,7 +4,7 @@ var stylus = require('gulp-stylus')
 
 
 gulp.task('jade', function(){
-	return gulp.src('src/jade/index.jade')
+	return gulp.src('src/jade/*.jade')
 	.pipe(jade())
 	.pipe(gulp.dest('build'))
 })
