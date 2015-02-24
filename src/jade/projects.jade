@@ -1,0 +1,52 @@
+extends ./layout.jade
+
+block head
+	style.
+		div#images{
+			text-align: center;
+		}
+		img {
+			margin: 10px auto;
+		}
+block content
+	h1 Things I've Worked On		
+	h2 BenjaminSt.xyz
+	p.
+		I made this site to have some web presence and to brush up on my front end skills.
+	p I also got to learn how to..
+	ul
+		li Use Jade and Stylus for designing a front end
+		li Use Express for serving static files
+		li Use Gulp to simplify compiling Jade and Stylus
+		li Sync a website with a GitHub repo using Web Hooks
+		li Make an AWS EC2 instance and deploy a Node.JS application
+	h2 Health Insurance Exchange Data API
+	p.
+		As part of a group project, I made a JSON API the allows for searching through a Robert Wood Johnson Foundation data set.
+	p Through this project I got to learn..
+	ul
+		li How to make an API
+		li How to use Ruby on Rails
+		li How to deploy a Ruby on Rails application on Heroku
+
+	h2 
+		a(href='https://github.com/BSteephenson/IndentedDocToArray') IndentedDocToArray
+	p.
+		I made a simple Javascript function that turns a document that uses indents to express heirarchy (think Python, Jade, Stylus) into a Javascript object.
+	p.
+		I'm personally a fan of whitespace-sensitive languages, and I plan on using this tool in the future to facilitate making these types of languages.
+
+	h2 Psych Personality Site
+	p.
+		For an AP Stats and AP Psychology project, a friend and I wanted to look at the ways how people's perception of their personality differs from how others view them. I created a website for collecting the data which was used by around 50 people.
+
+	#images
+		img(src="./images/psych_project/compliance.jpeg", width="75%")
+		img(src="./images/psych_project/self_inv.jpeg", width="75%")
+	p.
+		I got to learn..
+	ul
+		li How to use Git and GitHub for version control
+		li How to use the Laravel framework
+		li How to design a website with Twitter Bootstrap
+		li How to deploy a PHP website to Heroku
